@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.signn-section{
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    border-radius: 2px;
+    display: flex;
+    border: 2px solid blue
+}
+.sign-logo{
+    font-size: 18px;
+    font-weight: 22px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.signn-left{
+    width: 100%;
+    align-items: center;
+    padding-top: 180px;
+    font-size: 50px;
+    background-image: url(login_form_prototype.png);
+    color: white;
+    background-size: contain;
+    padding: 2px;
+}
+.signn-header h1{
+    width: 90%;
+    font-weight: bold;
+    padding-bottom: 10px; 
+}
+.signn-right{
+    width: 100%;
+    text-align: center;
+}
+.signn-right p{
+    font-size: 10px;
+}
+.formm-group{
+    width: 100%;
+    padding: 12px;
+    display: flex;
+}
+.formm-group a{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.formm-group input{
+    width: 100%;
+    height: 30px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid grey;
+    background-color: hsl(0, 9%, 87%);
+}
+.formm-groupsignup{
+    font-size: 10px;
+    text-align: center;
+}
+.formm-group input[type="radio"]{
+    width: 15%;
+    height: 10px;
+}
+.button-group button{
+    width: 90%;
+    height: 30px;
+    display: block;
+    outline: none;
+    border: none;
+    background-color: blue;
+    margin: 10px;
+    border-radius: 12px;
+    color: white;
+}
+.button-group2 button{
+    width: 90%;
+    height: 30px;
+    display: block;
+    outline: none;
+    border: 1px solid grey;
+    background-color: white;
+    margin: 12px;
+    border-radius: 4px;
+    color: black
+}
+.rm{
+    width: 50%;
+}

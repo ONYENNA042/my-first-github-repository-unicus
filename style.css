@@ -1,0 +1,28 @@
+*{
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.mother-container{
+    border: 2px solid black;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.child-container{
+    border: 2px solid black;
+    width: 100%;
+    margin: 10px 20px 10px 20px;
+    background-color: blue;
+}
+@media screen and (max-width: 768px) {
+    .mother-container{
+        flex-direction: column;
+    }
+    
+}
